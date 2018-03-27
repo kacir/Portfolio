@@ -2,6 +2,10 @@
 <html>
 
 <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <title>About Me</title>
     
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -11,10 +15,12 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     
     
+    <script src="lib/jquery-3.3.1.min.js" ></script>
+    <script src="lib/npm.js" ></script>
     <script src="lib/bootstrap.js" ></script>
     <script src="lib/bootstrap.min.js" ></script>
-    <script src="lib/npm.js" ></script>
-    <script src="lib/jquery-3.3.1.min.js" ></script>
+
+
     
     
 </head>
@@ -22,16 +28,25 @@
 <body>
 
     
-<div class="row"> <nav class="navbar">
-    <div class="container-fluid">
-        
-    <ol class="nav nav-pills">
-        <li><a href="portfolio.html">  Portfolio</a>   </li>
-        <li class="active"><a href="about.html">About Me</a></li>
-    </ol>
-        
-    </div>
-</nav></div>
+<nav class="navbar navbar-default navbar-about"> <!-- Create the navbar -->
+      <div class="container">
+        <div class="navbar-header"> <!-- Create the navbar -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Robert Kacir</span>
+						<span class="glyphicon glyphicon-menu-hamburger"></span><span class="mobile-menu"> Menu</span>
+		      </button> <!-- Hamburger button for smaller devices -->
+					<a class="navbar-brand" href="index.html">Roberta Rothers</a> <!-- Brand -->
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div id="navbar" class="collapse navbar-collapse">
+		      <ul class="nav navbar-nav">
+                  <li class="nav-item"><a href="portfolio.html">Contact</a></li>
+                  <li class="nav-item"><a href="about.html">About</a></li>
+		      </ul>
+		    </div> <!--/.navbar-collapse -->
+		  </div> <!--/.container -->
+		</nav> <!--/navigation bar -->
     
 <div class="container-fluid"><div class="row">
     
