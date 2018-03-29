@@ -1,11 +1,45 @@
 h1 {
-    font-size: 30px;
-}
-
-#navgroup > {
-
+    font-size: 60px;
 }
 
 body {
 	background-color: #DCDCDC;
+    margin-right: 2%;
+    margin-left: 2%;
+    
+    
+}
+
+.exampleofwork {
+    background-color: #999e9b;
+    color: #edeff2;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 500px;
+}
+
+.exampleofwork > p {
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    
+}
+
+.page-header {
+    text-align: center;
+}
+
+.exampleofwork > p > a {
+    color:#edeff2;
+    text-decoration: underline;
+    
+}
+
+.exampleofwork > p > a:hover {
+    color: lightskyblue;
+}
+
+.thumbnail {
+    border-radius: 50;
 }
