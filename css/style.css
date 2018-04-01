@@ -1,6 +1,6 @@
 /*General tags associated with multiple pages*/
 h1 {
-    font-size: 60px;
+    font-size: 40px;
 }
 p {
     font-size: 20px;
@@ -17,7 +17,7 @@ body {
 }
 
 img {
-    padding: 5%;
+    padding: 0%;
 }
 
 .subtitle {
@@ -30,16 +30,16 @@ img {
 
 /*Portfilo pages*/
 
+.thumbnail {
+    background-color: none;
+    color: none;
+}
+
 .thumbnail > img {
     max-width: 700px;
 }
 
 
-.thumbnail > p > a {
-    color:#edeff2;
-    text-decoration: underline;
-    
-}
 
 .thumbnail > p > a:hover {
     color: lightskyblue;
@@ -54,23 +54,49 @@ img {
 
 
 /*projects page*/
-card {
-    max-width: 500;
-}
+
+
 
 
 .card {
-    width: 80%;
-    background-color: #aeaee2;
+    background-color: darkgrey;
     border-radius: 2%;
-    padding: 3%;
+    padding: 0%;
+    margin: 3%;
+    width: 30rem;
+    
+    border-color: black;
+    border-style: solid;
+    border-width:thin;
 }
 
 
+.card-text {
+    padding-bottom: 0px;
+    padding-top: 5px;
+}
+
+
+.darkoverlay {
+    -webkit-transition: all 1s ease;
+   -moz-transition: all 1s ease;
+   -o-transition: all 1s ease;
+   -ms-transition: all 1s ease;
+   transition: all 1s ease;
+}
+
+.darkoverlay:hover {
+    -webkit-filter: brightness(40%);
+   filter: brightness(40%);
+}
 
 
 
 /*homepage*/
 #carousel-homepage {
-    max-height: 500px;
+   height: 350px;
+}
+
+#carousel-homepage img {
+    padding: 50px;
 }
