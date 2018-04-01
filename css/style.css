@@ -100,3 +100,13 @@ img {
 #carousel-homepage img {
     padding: 50px;
 }
+
+div.carousel-caption p {
+    background-color: black
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
