@@ -50,24 +50,26 @@ img {
 }
 
 
-
+.card-body p {
+    color :black;
+}
 
 
 /*projects page*/
 
+ h3 {
+    padding: 5%;
+     color: black;
+}
 
 
 
 .card {
     background-color: darkgrey;
-    border-radius: 2%;
     padding: 0%;
-    margin: 3%;
+    margin: 0 auto;
+    margin-bottom: 10px;
     width: 30rem;
-    
-    border-color: black;
-    border-style: solid;
-    border-width:thin;
 }
 
 
@@ -89,6 +91,9 @@ img {
     -webkit-filter: brightness(40%);
    filter: brightness(40%);
 }
+
+
+
 
 
 
