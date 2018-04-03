@@ -26,12 +26,33 @@ img {
     padding-right: 5px;
 }
 
+/*keep nav items visable when hovering over*/
+.nav > li > a:hover {
+    color: black !important;
+}
+
+
 /*increases size of hamburger icon*/
 .navbar-header {
     font-size: 15px;
     padding: 0px;
     margin: 0px;
 }
+
+/*prevents menue bar from overlapping with the home button*/
+body {
+    padding-top: 0px;
+}
+@media screen and (max-width: 700px){
+    body {
+        padding-top: 15px; 
+        
+        }
+    #navbar {
+        border-width: 0px;
+        border-color: none;
+    }
+    }
 
 
 
