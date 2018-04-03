@@ -15,6 +15,20 @@ img {
     padding: 0%;
 }
 
+h3 {
+    padding: 5%;
+	 font-size: 30px;
+}
+
+h4 {
+	font-size: 25px;
+}
+
+
+
+
+
+/*Navigation bar styles needed for format to be kept*/
 .subtitle {
     text-align: center;
 }
@@ -68,8 +82,6 @@ body {
     max-width: 700px;
 }
 
-
-
 .thumbnail > p > a:hover {
     color: lightskyblue;
 }
@@ -83,13 +95,6 @@ body {
 
 
 /*projects page*/
-
- h3 {
-    padding: 5%;
-     color: black;
-}
-
-
 
 .card {
     padding: 0%;
@@ -116,6 +121,18 @@ body {
 .darkoverlay:hover {
     -webkit-filter: brightness(40%);
    filter: brightness(40%);
+}
+
+
+
+/*Resume Page*/
+li.resume-item {
+	font-size: 2em;
+	color: grey;
+}
+
+.position-title {
+	font-size: 20px;
 }
 
 
