@@ -22,9 +22,16 @@ img {
 .nav-item {
 	font-size: 15px;
 	text-align: center;
-	
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
+/*increases size of hamburger icon*/
+.navbar-header {
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
 
 
 
