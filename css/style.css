@@ -3,7 +3,8 @@ h1 {
     font-size: 40px;
 }
 p {
-    font-size: 20px;
+    font-size: 16px;
+    
 }
 
 
@@ -22,6 +23,10 @@ h3 {
 
 h4 {
 	font-size: 25px;
+}
+
+body {
+    padding-bottom: 50px;
 }
 
 
@@ -90,6 +95,21 @@ body {
     max-width: 95%;
 }
 
+/*Padd sides of subtitle 
+area to prevent edge crowding*/
+.subtitle {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+a card:hover {
+    text-decoration: none;
+}
+
+.card-body p.card-text:hover {
+    text-decoration: none;
+}
+
 
 
 
@@ -121,6 +141,15 @@ body {
 .darkoverlay:hover {
     -webkit-filter: brightness(40%);
    filter: brightness(40%);
+}
+
+.card  > p {
+    padding-bottom: 10px;
+}
+
+.card img {
+    padding-bottom: 8%;
+    padding-top: 5%
 }
 
 
