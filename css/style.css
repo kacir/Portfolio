@@ -1,9 +1,9 @@
 /*General tags associated with multiple pages*/
 h1 {
-    font-size: 40px;
+    font-size: 30px;
 }
 p {
-    font-size: 16px;
+    font-size: 14px;
     
 }
 
@@ -17,16 +17,17 @@ img {
 }
 
 h3 {
-    padding: 5%;
-	 font-size: 30px;
+    padding-top: 8%;
+    padding-bottom: 0.5%;
+	 font-size: 28px;
 }
 
 h4 {
-	font-size: 25px;
+	font-size: 20px;
 }
 
 body {
-    padding-bottom: 50px;
+    padding-bottom: 10%;
 }
 
 
@@ -102,11 +103,8 @@ area to prevent edge crowding*/
     padding-right: 10%;
 }
 
-a card:hover {
-    text-decoration: none;
-}
-
-.card-body p.card-text:hover {
+/*prevent the hyperlink underline from showing for each portfolio page*/
+.portfoliohyperlink:hover {
     text-decoration: none;
 }
 
@@ -155,13 +153,13 @@ a card:hover {
 
 
 /*Resume Page*/
-li.resume-item {
-	font-size: 2em;
-	color: grey;
+.resume-item {
+	font-size: 14px;
+	color: #bcbcbc;
 }
 
 .position-title {
-	font-size: 20px;
+	font-size: 17px;
 }
 
 
