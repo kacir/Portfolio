@@ -28,6 +28,8 @@ h4 {
 
 body {
     padding-bottom: 10%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
 }
 
 
@@ -149,6 +151,14 @@ area to prevent edge crowding*/
     padding-bottom: 8%;
     padding-top: 5%
 }
+
+/*affect the card body for the projects page*/
+#nfct, #adpt1, #adpt2, #landvest {
+    margin: 1%;
+    height: 450px;
+}
+
+
 
 
 
