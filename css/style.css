@@ -208,6 +208,11 @@ area to prevent edge crowding*/
     padding: 5%
 }
 
+#intro-video {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #carousel-homepage img {
     padding: 50px;
 }
